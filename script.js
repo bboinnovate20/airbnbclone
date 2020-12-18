@@ -101,7 +101,7 @@ slidePhoto.style.transform = 0;
 
 nextPhoto.onclick = function() {
     counter++;
-    if (counter <= 2) {
+    if (counter <= 1) {
         slidePhoto.style.transform = `translateX(${counter *(-image)}px)`;
     }
     console.log(image)
@@ -133,5 +133,3 @@ bookings.addEventListener('click', function(e) {
     })
 
 })
-
-// 0012414418
