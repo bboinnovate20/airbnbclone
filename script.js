@@ -117,7 +117,7 @@ previousPhoto.onclick = function() {
 
 
 }
-
+x
 //loop through 
 bookings.addEventListener('click', function(e) {
     let targetElement = e.target.parentElement;

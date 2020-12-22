@@ -756,6 +756,9 @@ footer ul li a {
 }
 
 @media (max-width: 745px) {
+     ::-webkit-scrollbar {
+        display: none;
+    }
     .navigator {
         display: block;
     }
@@ -870,7 +873,7 @@ footer ul li a {
         right: 0;
     }
     .section-one {
-        overflow: hidden;
+        overflow-x: scroll;
     }
     .section-two {
         padding: 25px;
@@ -885,9 +888,9 @@ footer ul li a {
         width: 100%;
     }
     .thumbnails h1 {
-        font-size: 4rem;
+        font-size: 5.5rem;
         width: 50px;
-        line-height: 4rem;
+        line-height: 5.5rem;
     }
     .thumbnails p {
         display: none;
